@@ -1,0 +1,49 @@
+// The strategy is to combine moving averages, Relative Strength Index (RSI), and volume.
+//@version=5
+indicator("Rich's Strategy", overlay=true)
+
+// Inputs Parameters Combination of Strategy...
+fastLength = input.int(10, title="Fast MA Length", minval=1)
+slowLength = input.int(20, title="Slow MA Length", minval=1)
+rsiLength = input.int(14, title="RSI Length", minval=1)
+rsiOverbought = input.int(70, title="RSI Overbought Level", minval=50)
+rsiOversold = input.int(30, title="RSI Oversold Level", minval=10)
+
+// Moving Averages 
+fastMA = ta.sma(close, fastLength)
+slowMA = ta.sma(close, slowLength)
+
+// RSI Einstellungen
+rsi = ta.rsi(close, rsiLength)
+
+// Buy and Sell conditions
+buyCondition = ta.crossover(fastMA, slowMA) and rsi < rsiOversold
+sellCondition = ta.crossunder(fastMA, slowMA) and rsi > rsiOverbought
+
+// Plotting MAs
+plot(fastMA, color=color.blue, title="Fast MA")
+plot(slowMA, color=color.red, title="Slow MA")
+
+// Plot Buy and Sell signals
+plotshape(series=buyCondition, location=location.belowbar, color=color.green, style=shape.labelup, title="Buy Signal")
+plotshape(series=sellCondition, location=location.abovebar, color=color.red, style=shape.labeldown, title="Sell Signal")
+
+// Alerts
+alertcondition(buyCondition, title="Buy Alert", message="Here Buy Signal")
+alertcondition(sellCondition, title="Sell Alert", message="Here Sell Signal")
+
+// Volume condition (optional)
+volumeThreshold = input.int(100000, title="Volume Threshold")
+volumeCondition = volume > volumeThreshold
+
+// Volume-based Buy and Sell conditions
+buyConditionWithVolume = buyCondition and volumeCondition
+sellConditionWithVolume = sellCondition and volumeCondition
+
+// Plot Buy and Sell signals with volume condition
+plotshape(series=buyConditionWithVolume, location=location.belowbar, color=color.green, style=shape.triangledown, title="Buy Signal with Volume")
+plotshape(series=sellConditionWithVolume, location=location.abovebar, color=color.red, style=shape.triangleup, title="Sell Signal with Volume")
+
+// Alerts for volume-based conditions
+alertcondition(buyConditionWithVolume, title="Buy Alert with Volume", message="Here Buy Signal with Volume")
+alertcondition(sellConditionWithVolume, title="Sell Alert with Volume", message="Here Sell Signal with Volume")
