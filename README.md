@@ -12,4 +12,7 @@ Die Code oben sind Skripte für TradingView, ide in der "Pine Script-Sprache" ge
 **advanced-rich-strategy.pine**: A combination of MA, RSI, MACD, ATR.
 
 
+**advanced-rich-strategy-2.pine**: A combination of EMAs, RSI, MACD, Bollinger Bands.
+
+
 Weitere Skripte werde ich noch bald veröffentlichen :) 
