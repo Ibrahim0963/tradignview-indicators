@@ -73,6 +73,7 @@ Weitere Skripte werde ich noch bald veröffentlichen :)
    - **Set Goals:** Define clear, realistic objectives for your trading activities.
    - **Develop Strategies:** Create and test trading strategies that suit your goals and risk tolerance.
    - **Discipline:** Stick to your trading plan and avoid emotional decisions.
+   - **Trading Style:** Choose a trading style (scalping, day trading, swing trading, position trading).
 
 6. **Emotional Control:**
    - **Avoid Overtrading:** Don’t trade too frequently or impulsively.
