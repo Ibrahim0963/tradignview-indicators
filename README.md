@@ -17,6 +17,19 @@ Die Code oben sind Skripte für TradingView, ide in der "Pine Script-Sprache" ge
 Weitere Skripte werde ich noch bald veröffentlichen :) 
 
 ---
+# Trading terminology
+   - **Spread:** The difference between the bid price and the ask price.
+   - **Volatility:** The degree of variation in an asset’s price over time. Higher volatility indicates larger price swings.
+   - **Moving Average:** A statistical calculation used to smooth out price data to identify trends. Common types are the Simple Moving Average (SMA) and Exponential Moving Average (EMA).
+   - 
+2. **Order Types:**
+   - **Market Order:** An order to buy or sell an asset immediately at the current market price.
+   - **Limit Order:** An order to buy or sell an asset at a specific price or better. A buy limit order is executed at the limit price or lower, and a sell limit order is executed at the limit price or higher.
+   - **Stop-Loss Order:** An order to sell an asset when its price falls to a certain level to limit losses.
+   - **Take-Profit Order:** An order to sell an asset when its price reaches a specified level to lock in profits.
+   - **Stop-Limit Order:** An order that combines a stop order and a limit order. It becomes a limit order once the stop price is reached.
+
+
 # Different types of markets
 ## 1. **Stocks**
    - **What are Stocks:** Stocks represent ownership in a company. When you buy a stock, you own a part of that company.
@@ -50,7 +63,7 @@ Weitere Skripte werde ich noch bald veröffentlichen :)
      - **Currency Values:** Commodity prices are often inversely related to the value of the US dollar.
      - **Market Sentiment:** Investor perception and speculative activities.
 
-## How to learn:
+# How to learn:
 1. **Technical Analysis:**
    - **Chart Patterns:** Learn to recognize chart patterns and trends specific to the market. Recognize patterns like head and shoulders, flags, and triangles
    - **Indicators:** Use technical indicators to analyze market movements. Use indicators such as moving averages, MACD, RSI, and Bollinger Bands to analyze price movements.
@@ -84,7 +97,7 @@ Weitere Skripte werde ich noch bald veröffentlichen :)
    - **Accept Losses:** Understand that losses are part of trading, and focus on maintaining a positive overall performance.
 
 
-## Practical Example:
+# Practical Example:
 Let’s say you are interested in trading stocks:
 - **Understand Company Performance:** Study the financial health of companies. Look at their earnings reports, revenue growth, and profit margins.
 - **Monitor Economic Indicators:** Keep an eye on interest rates, inflation, and GDP growth, as these can impact the stock market.
@@ -94,7 +107,7 @@ Let’s say you are interested in trading stocks:
 By thoroughly understanding the specific market you are trading in, you can make more informed decisions and develop strategies that are tailored to the unique characteristics of that market.
 
 ---
-
+# Different types of indicators
 TradingView is a popular charting and trading platform that offers a wide array of tools for technical analysis, including indicators. Indicators on TradingView help traders analyze price movements, identify trends, and make informed trading decisions. Here’s an overview of the types of indicators available on TradingView and their purposes:
 
 ## 1. **Trend Indicators**
@@ -123,7 +136,7 @@ TradingView is a popular charting and trading platform that offers a wide array 
    - **Pine Script:** TradingView allows users to create custom indicators using Pine Script, a lightweight scripting language. This enables traders to tailor indicators to their specific needs and strategies.
 
 --- 
-## Strategies:
+# Strategies:
 - **Using RSI with Bollinger Bands:**
   - Add both RSI and Bollinger Bands to a chart.
   - When the RSI is above 70 and the price touches the upper Bollinger Band, it might indicate overbought conditions and a potential reversal.
