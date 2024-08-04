@@ -136,7 +136,12 @@ Understanding these sessions and their overlaps helps traders optimize their str
    - **Stop-Loss Order:** An order to sell an asset when its price falls to a certain level to limit losses.
    - **Take-Profit Order:** An order to sell an asset when its price reaches a specified level to lock in profits.
    - **Stop-Limit Order:** An order that combines a stop order and a limit order. It becomes a limit order once the stop price is reached.
-
+---
+# Different types of currency pairs
+- Major Pairs: Most traded, high liquidity, low volatility (e.g., EUR/USD, GBP/USD).
+- Minor Pairs: Exclude the USD, moderate liquidity, moderate volatility (e.g., EUR/GBP, GBP/JPY).
+- Exotic Pairs: Involve one major and one emerging market currency, low liquidity, high volatility (e.g., USD/TRY, GBP/ZAR).
+---
 
 # Different types of markets
 ## 1. **Stocks**
