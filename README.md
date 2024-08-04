@@ -225,6 +225,18 @@ Trading Plattforms to pratice:
 - ig.com
 
 ---
+
+# Economic and Political Factors
+### 3.1. Economic Indicators:
+   - Interest Rates: Central bank policies and interest rates can influence currency values.
+   - Inflation Rates: Affects purchasing power and can impact currency strength.
+   - Employment Data: Reports such as Non-Farm Payrolls (NFP) can lead to market volatility.
+   - GDP Growth: Reflects the overall economic health and can affect currency strength.
+### 3.2. Political Events:
+   - Elections: Political changes can lead to uncertainty and affect currency markets.
+   - Trade Policies: Trade agreements or conflicts can influence currency values.
+   - Geopolitical Tensions: Wars, conflicts, and diplomatic relations can impact currency prices.
+---
 # Different types of indicators
 TradingView is a popular charting and trading platform that offers a wide array of tools for technical analysis, including indicators. Indicators on TradingView help traders analyze price movements, identify trends, and make informed trading decisions. Here’s an overview of the types of indicators available on TradingView and their purposes:
 
