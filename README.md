@@ -17,6 +17,19 @@ Die Code oben sind Skripte für TradingView, ide in der "Pine Script-Sprache" ge
 Weitere Skripte werde ich noch bald veröffentlichen :) 
 
 ---
+# Forex market trading sessions using Germany's time zone
+The Forex market trading sessions using Germany's time zone (Central European Time, CET) and Central European Summer Time (CEST) for daylight saving time. Germany operates on CET (UTC+1) during standard time and CEST (UTC+2) during daylight saving time.
+- Sydney Session (CET): 11:00 PM to 8:00 AM (quieter, sets weekly tone).
+- Tokyo Session (CET): 1:00 AM to 10:00 AM (first major center, JPY focus).
+- London Session (CET): 9:00 AM to 6:00 PM (high volatility, overlaps Tokyo and New York).
+- New York Session (CET): 2:00 PM to 11:00 PM (major hub, significant impact from US data).
+
+Bild fürs CEST (Summer Time):
+![image](https://github.com/user-attachments/assets/752b2c34-ae26-401c-99ff-9f90a6d22ca0)
+
+Quelle: https://www.ig.com/de/trading-strategien/welche-sind-die-besten-forex-handelszeiten--200130
+---
+
 # Trading terminology
    - **Spread:** The difference between the bid price and the ask price.
    - **Volatility:** The degree of variation in an asset’s price over time. Higher volatility indicates larger price swings.
